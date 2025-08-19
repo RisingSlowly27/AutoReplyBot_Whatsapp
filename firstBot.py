@@ -1,0 +1,35 @@
+import pyautogui
+import time
+
+pyautogui.click(737,1055)
+time.sleep(.5)
+while True:
+    time.sleep(10)
+    if pyautogui.pixel(672,943)==(255,255,255) or pyautogui.pixel(672,943)==(27,27,27):
+        print("Yes")
+        pyautogui.click(672,943,button="right")
+        time.sleep(.5)
+        pyautogui.click(693,631)
+        time.sleep(.5)
+        pyautogui.click()
+        time.sleep(.5)
+        pyautogui.click(1049,1052)
+        time.sleep(.5)
+        pyautogui.click(820,947)
+        time.sleep(.5)
+        pyautogui.hotkey("ctrl","v")
+        time.sleep(.5)
+        pyautogui.hotkey("enter")
+        time.sleep(10)
+        pyautogui.click(94,63)
+        time.sleep(5)
+        pyautogui.click(712,907)
+        time.sleep(.5)
+        pyautogui.click(737,1055)
+        time.sleep(.5)
+        pyautogui.click(630,1005)
+        time.sleep(.5)
+        pyautogui.hotkey("ctrl","v")
+        time.sleep(.5)
+        pyautogui.hotkey("enter")
+    
